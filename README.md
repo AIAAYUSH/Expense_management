@@ -1,33 +1,57 @@
-# Expense Management System
+# 📊 Expense Management System
 
-This project is an expense management system that consists of a Streamlit frontend application and a FastAPI backend server.
+## 🚀 Overview
+A full-stack Expense Management System built with **Streamlit (frontend)** and **FastAPI (backend)**.  
+It helps users track, manage, and visualize expenses efficiently.
+
+---
+
+## ✨ Features
+- Add & update expenses  
+- Monthly & category-wise analytics  
+- Data visualization (charts)  
+- Fast API backend + interactive UI  
+
+---
+
+## 🛠️ Tech Stack
+- Python  
+- Streamlit  
+- FastAPI  
+- Pandas, Matplotlib  
+- MySQL  
+
+---
+
+## ⚙️ Setup & Run
+
+```bash
+git clone https://github.com/your-username/expense-management.git
+cd expense-management
+
+python -m venv venv
+venv\Scripts\activate
+
+pip install -r requirements.txt
 
 
-## Project Structure
+▶️ Run Backend
 
-- **frontend/**: Contains the Streamlit application code.
-- **backend/**: Contains the FastAPI backend server code.
-- **tests/**: Contains the test cases for both frontend and backend.
-- **requirements.txt**: Lists the required Python packages.
-- **README.md**: Provides an overview and instructions for the project.
+cd backend
+uvicorn server:app --reload
 
+▶️ Run Frontend
 
-## Setup Instructions
+cd frontend
+streamlit run app.py
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/expense-management-system.git
-   cd expense-management-system
-   ```
-1. **Install dependencies:**:   
-   ```commandline
-    pip install -r requirements.txt
-   ```
-1. **Run the FastAPI server:**:   
-   ```commandline
-    uvicorn server.server:app --reload
-   ```
-1. **Run the Streamlit app:**:   
-   ```commandline
-    streamlit run frontend/app.py
-   ```
+🌐 Access
+Frontend: http://localhost:8501
+Backend: http://127.0.0.1:8000
+📌 Future Improvements
+Authentication system
+Cloud deployment
+Mobile-friendly UI
+⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
