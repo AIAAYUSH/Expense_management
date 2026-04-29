@@ -59,15 +59,15 @@ uvicorn server:app --reload
 cd frontend
 streamlit run app.py
 ```
-
+---
 ##🌐 Access
-Frontend: http://localhost:8501
-Backend: http://127.0.0.1:8000
+-Frontend: http://localhost:8501
+-Backend: http://127.0.0.1:8000
 
 ##📌 Future Improvements
-Authentication system
-Cloud deployment
-Mobile-friendly UI
-⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
+-Authentication system
+-Cloud deployment
+-Mobile-friendly UI
+-⭐ Support
+---
+-If you like this project, give it a ⭐ on GitHub!
