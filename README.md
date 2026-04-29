@@ -47,21 +47,24 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 
-
-▶️ Run Backend
-
+```
+##▶️ Run Backend
+```
 cd backend
 uvicorn server:app --reload
+```
 
-▶️ Run Frontend
-
+##▶️ Run Frontend
+```
 cd frontend
 streamlit run app.py
+```
 
-🌐 Access
+##🌐 Access
 Frontend: http://localhost:8501
 Backend: http://127.0.0.1:8000
-📌 Future Improvements
+
+##📌 Future Improvements
 Authentication system
 Cloud deployment
 Mobile-friendly UI
